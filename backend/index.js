@@ -5,10 +5,11 @@ const flashcardRoutes = require("./routes");
 require("dotenv").config();
 
 const app = express();
-app.use(cors({ origin: process.env.FRONTEND_URL }));
+app.use(cors({ origin:process.env.NODE_ENV=='development'?'http://localhost:3000': process.env.FRONTEND_URL }));
 app.use(bodyParser.json());
 
 app.use("/api/flashcards", flashcardRoutes);
+// console.log(process.env.NODE_ENV)
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
