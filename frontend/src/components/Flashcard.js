@@ -7,18 +7,33 @@ const Flashcard = ({ flashcard }) => {
   const handleClick = () => {
     setIsFlipped(!isFlipped);
   };
+
   return (
-    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal" flipSpeedBackToFront={0.8} flipSpeedFrontToBack={0.8}>
-      <div className="flex justify-center items-center flex-col h-[400px] w-[600px] bg-gradient-to-r from-green-100 to-green-300 rounded-xl shadow-lg p-4">
-        <h1 className="font-bold text-2xl text-gray-800">{flashcard.question}</h1>
-        <button onClick={handleClick} className="mt-4 p-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 shadow-md transform hover:scale-105 transition-all duration-300">
-          Answer
+    <ReactCardFlip
+      isFlipped={isFlipped}
+      flipDirection="horizontal"
+      flipSpeedBackToFront={0.8}
+      flipSpeedFrontToBack={0.8}
+    >
+      {/* Front of the Flashcard */}
+      <div className="flex justify-center items-center flex-col h-[400px] w-[600px] bg-gradient-to-br from-[#111111] to-[#191919] rounded-xl shadow-2xl p-8">
+        <h1 className="font-extrabold text-3xl text-white text-center tracking-wide">{flashcard.question}</h1>
+        <button
+          onClick={handleClick}
+          className="mt-8 p-4 rounded-full bg-[#F1684D] text-white hover:bg-[#d45e46] shadow-lg transform hover:scale-110 transition-transform duration-300 ease-in-out"
+        >
+          Show Answer
         </button>
       </div>
-      <div className="flex justify-center items-center flex-col h-[400px] w-[600px] bg-gradient-to-r from-green-100 to-green-300 rounded-xl shadow-lg p-4">
-        <h1 className="font-bold text-2xl text-gray-800">{flashcard.answer}</h1>
-        <button onClick={handleClick} className="mt-4 p-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 shadow-md transform hover:scale-105 transition-all duration-300">
-          Question
+
+      {/* Back of the Flashcard */}
+      <div className="flex justify-center items-center flex-col h-[400px] w-[600px] bg-gradient-to-br from-[#111111] to-[#191919] rounded-xl shadow-2xl p-8">
+        <h1 className="font-extrabold text-3xl text-white text-center tracking-wide">{flashcard.answer}</h1>
+        <button
+          onClick={handleClick}
+          className="mt-8 p-4 rounded-full bg-[#F1684D] text-white hover:bg-[#d45e46] shadow-lg transform hover:scale-110 transition-transform duration-300 ease-in-out"
+        >
+          Show Question
         </button>
       </div>
     </ReactCardFlip>
