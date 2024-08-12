@@ -4,7 +4,7 @@ Here's an updated version of your README with the additional backend technologie
 
 # TUF
 
-TUF is a modern web application designed to enhance user learning and interaction through a clean and responsive interface. It features a flashcard learning tool, an admin panel for managing flashcards, and is built with a tech stack that ensures scalability and maintainability.
+TUF features a flashcard learning tool, an admin panel for managing flashcards, and is built with a tech stack that ensures scalability and maintainability.
 
 ![Screenshot (218)](https://github.com/user-attachments/assets/2746cf88-e40f-42d5-a7ee-eb497be496fb)
 ![Screenshot (217)](https://github.com/user-attachments/assets/76c9b110-450f-4d2e-978e-6ecb0eecb1fa)
