@@ -30,7 +30,7 @@ const FlashcardForm = () => {
         onChange={(e) => setQuestion(e.target.value)}
         placeholder="Question"
         required
-        className="text-black p-2 rounded-md "
+        className="bg-[#1F1F1F] text-white p-2 rounded-md border-[#333333] "
       />
       <input
         type="text"
@@ -38,10 +38,10 @@ const FlashcardForm = () => {
         onChange={(e) => setAnswer(e.target.value)}
         placeholder="Answer"
         required
-        className="text-black p-2 rounded-md "
+        className="bg-[#1F1F1F] text-white p-2 rounded-md border-[#333333]"
       />
-      <button type="submit" className="p-2 rounded-md bg-green-500">
-        Add Flashcard
+      <button type="submit" className="p-2 rounded-md bg-[#C7534D] hover:bg-[#942F2F]">
+        Add Card
       </button>
     </form>
   );
