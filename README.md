@@ -5,8 +5,9 @@
 
 TUF features a flashcard learning tool, an admin panel for managing flashcards, and is built with a tech stack that ensures scalability and maintainability.
 
-![Screenshot (218)](https://github.com/user-attachments/assets/2746cf88-e40f-42d5-a7ee-eb497be496fb)
-![Screenshot (217)](https://github.com/user-attachments/assets/76c9b110-450f-4d2e-978e-6ecb0eecb1fa)
+![WhatsApp Image 2024-08-12 at 11 43 32 PM](https://github.com/user-attachments/assets/3c785b50-6093-4ffb-af69-2e380a8b81f9)
+![WhatsApp Image 2024-08-12 at 11 43 32 PM (1)](https://github.com/user-attachments/assets/6a67e5db-ed7b-474b-9f19-bd8f54cf26dc)
+
 
 ## Tech Stack
 
