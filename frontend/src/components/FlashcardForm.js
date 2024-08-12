@@ -23,7 +23,7 @@ const FlashcardForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex gap-4">
+    <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4">
       <input
         type="text"
         value={question}
