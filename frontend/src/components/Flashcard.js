@@ -34,7 +34,7 @@ const Flashcard = ({ flashcard }) => {
 </div>
 
       {/* Back of the Flashcard */}
-      <div className="flex justify-center items-center flex-col h-[400px] w-[500px] rounded-lg shadow-lg p-8 border border-[#2D2D2D] relative bg-[#111111] font-inter">
+      <div className="flex justify-center items-center flex-col h-[400px] w-[300px] md:w-[500px] md:h-[400px] rounded-lg shadow-lg p-8 border border-[#2D2D2D] relative bg-[#111111] font-inter">
         <span className="absolute top-4 left-4 bg-[#C7534D] text-white text-m font-normal px-3 py-1 rounded-full">
           Answer
         </span>
