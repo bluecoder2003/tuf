@@ -1,4 +1,3 @@
-Here's an updated version of your README with the additional backend technologies included:
 
 ---
 
@@ -13,8 +12,10 @@ TUF features a flashcard learning tool, an admin panel for managing flashcards, 
 
 ### Frontend
 - **Tailwind CSS**: For styling and responsive design.
-- **Next.js**: For server-side rendering and building the frontend application.
-- **JavaScript**: For client-side scripting.
+- **Next.js**: For rendering and building the frontend application.
+- **React Card Flip**: This creates interactive flip card components.
+- **Ky**: A lightweight, modern HTTP client built on the native fetch API, used for making promise-based HTTP requests.
+- **Tanstack Query**: For advanced data management and server-state synchronization, a modern evolution of React Query.
 
 ### Backend
 - **Node.js**: For the server-side runtime environment.
@@ -85,6 +86,12 @@ TUF features a flashcard learning tool, an admin panel for managing flashcards, 
 
 - **Desktop View**: Uses Flexbox and Tailwind CSS utilities for a clean and organized layout.
 - **Mobile View**: Utilizes responsive design classes to ensure usability on smaller screens. Specific styles are applied using media queries.
+
+## Challenges faced
+
+- **Design Consistency Across Devices**: Ensuring a consistent and user-friendly design across various devices and screen sizes was challenging.
+- **Integration of New Tools**: Adapting to Ky for HTTP requests and using React Query mutations for interactive components presented initial challenges but ultimately improved application efficiency.
+- **Backend Deployment and Management**: Deploying the backend using Railway and managing it through Aiven introduced complexities in configuration and maintenance. Ensuring reliable connectivity between the frontend and backend services required meticulous setup and monitoring.
 
 ## Contributing
 
