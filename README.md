@@ -1,10 +1,13 @@
-Got it! Here’s your updated README file:
+Here's an updated version of your README with the additional backend technologies included:
 
 ---
 
 # TUF
 
-TUF is a modern web application designed to enhance user learning and interaction through a clean and responsive interface. It features a flashcard learning tool, admin panel for managing flashcards, and is built with a tech stack that ensures scalability and maintainability.
+TUF is a modern web application designed to enhance user learning and interaction through a clean and responsive interface. It features a flashcard learning tool, an admin panel for managing flashcards, and is built with a tech stack that ensures scalability and maintainability.
+
+![Screenshot (218)](https://github.com/user-attachments/assets/2746cf88-e40f-42d5-a7ee-eb497be496fb)
+![Screenshot (217)](https://github.com/user-attachments/assets/76c9b110-450f-4d2e-978e-6ecb0eecb1fa)
 
 ## Tech Stack
 
@@ -16,6 +19,8 @@ TUF is a modern web application designed to enhance user learning and interactio
 ### Backend
 - **Node.js**: For the server-side runtime environment.
 - **Express**: For building the backend API and handling server-side logic.
+- **MySQL**: For database management.
+- **Railway**: For deploying the backend services (managed by Aiven).
 
 ### Package Manager
 - **Yarn**: For managing project dependencies.
@@ -32,6 +37,7 @@ TUF is a modern web application designed to enhance user learning and interactio
 
 - Node.js (>= 14.x)
 - Yarn (>= 1.x)
+- MySQL Server (if running locally)
 
 ### Installation
 
@@ -77,7 +83,7 @@ TUF is a modern web application designed to enhance user learning and interactio
 
 ## Responsive Design
 
-- **Desktop View**: Uses flexbox and Tailwind CSS utilities for a clean and organized layout.
+- **Desktop View**: Uses Flexbox and Tailwind CSS utilities for a clean and organized layout.
 - **Mobile View**: Utilizes responsive design classes to ensure usability on smaller screens. Specific styles are applied using media queries.
 
 ## Contributing
@@ -95,5 +101,3 @@ Contributions are welcome! Please follow these steps to contribute:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to adjust any part of this README as needed!
